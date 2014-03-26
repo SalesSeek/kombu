@@ -7,8 +7,8 @@ version_info_t = namedtuple(
     'version_info_t', ('major', 'minor', 'micro', 'releaselevel', 'serial'),
 )
 
-VERSION = version_info_t(3, 0, 14, '', '')
-__version__ = '{0.major}.{0.minor}.{0.micro}{0.releaselevel}'.format(VERSION)
+VERSION = version_info_t(3, 0, 15, 'a', '1')
+__version__ = '{0.major}.{0.minor}.{0.micro}{0.releaselevel}{0.serial}'.format(VERSION)
 __author__ = 'Ask Solem'
 __contact__ = 'ask@celeryproject.org'
 __homepage__ = 'http://kombu.readthedocs.org'
